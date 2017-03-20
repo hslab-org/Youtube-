@@ -4,3 +4,13 @@ youtubeアカウント大量に作成して自動で高評価押させてるん�
 
 すぐ計算できるようにyoutubecalcを/usr/binに突っ込む使い方した。<br>
 その際chmodで実行権限つけてくださいね。<br>
+
+入れ方（要gitコマンド）
+
+cd /tmp
+git clone https://github.com/hslab-org/YoutubeGoodAndBadCalc.git
+su
+cp ./youtubecalc /usr/bin
+chmod 755 /usr/bin/youtubecalc
+exit
+youtubecalc
